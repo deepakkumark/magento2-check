@@ -115,7 +115,7 @@ function phpOptionalExtensions()
         <div class="panel-body">
             <?php foreach (phpOptionalExtensions() as $result): ?>
                 <div class="alert alert-<?php echo $result['css'] ?>" role="alert"><?php echo $result['note'] ?></div>
-            <?php endforeach; ?>
+            <?php endforeach; ?>eret
         </div>
     </div>
 </div>
